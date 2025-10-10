@@ -1,0 +1,14 @@
+[
+  {
+    "SITE_NAME": "openplc",
+    "PORT": 8081,
+    "REPO": "https://github.com/FOSSEE/openplc_docker_image",
+    "SITE_BRANCH": "main",
+    "SITE_DB_NAME": "openplcdb_2025_10_08",
+    "SITE_DB_USERNAME": "openplc_srijan",
+    "SITE_DB_PASSWD": "4q9(itOoMu88gEEwpk[wCyuN!x[>l)>7()X",
+    "SITE_IMAGE": "openplc_image",
+    "SITE_CONTAINER": "openplc_container",
+    "SITE_SERVICE": "openplc_persist"
+  }
+]
