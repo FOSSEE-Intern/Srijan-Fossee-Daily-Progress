@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automated SSO Setup/Drupal OpenID Connect (Keycloak) Configuration Summary.md",
+                "file": "Keycloak BackUp & Restore/Keycloak Restore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Drupal OpenID Connect (Keycloak) Configuration Summary"
-            }
-          }
-        ]
-      },
-      {
-        "id": "06cb33ac8b58219f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c2588c30f7e64874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automated SSO Setup/openplc_config_script.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "openplc_config_script"
+              "title": "Keycloak Restore"
             }
           }
         ]
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Automated SSO Setup/Drupal OpenID Connect (Keycloak) Configuration Summary.md",
+                "file": "Keycloak BackUp & Restore/Keycloak Restore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drupal OpenID Connect (Keycloak) Configuration Summary"
+              "title": "Backlinks for Keycloak Restore"
             }
           },
           {
@@ -175,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,8 +171,14 @@
   },
   "active": "f843b81cb4cd6cd5",
   "lastOpenFiles": [
-    "Automated SSO Setup/openplc_config_script.md",
+    "Keycloak BackUp & Restore/Keycloak Backup.md",
+    "Keycloak BackUp & Restore/Keycloak Restore.md",
+    "Untitled.md",
+    "Seprate VM Setup/Server A - Keycloak Server.md",
+    "Keycloak BackUp & Restore",
     "Automated SSO Setup/Drupal OpenID Connect (Keycloak) Configuration Summary.md",
+    "Untitled.base",
+    "Automated SSO Setup/openplc_config_script.md",
     "Automated SSO Setup/keycloak_user_config_Scipt.md",
     "Automated SSO Setup/Task.md"
   ]

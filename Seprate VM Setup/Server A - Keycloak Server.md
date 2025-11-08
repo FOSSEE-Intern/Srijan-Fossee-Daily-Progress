@@ -6,7 +6,7 @@ Update and configure firewall
 sudo dnf update -y
 
 # allow port 8081
-sudo firewall-cmd --permanent --add-port=8081/tcp
+sudo firewall-cmd --permanent --add-port=8080/tcp
 
 #reload the firewall
 sudo firewall-cmd --reload
@@ -47,12 +47,6 @@ Restart mysqld
 sudo systemctl restart mysqld
 # Try logging into mysql
 mysql -u root -p
-```
-
-Install podman, jq and slirp4netns
-
-```sh
-sudo dnf install wget git podman jq slirp4netns -y
 ```
 
 ## 2. Install Keycloak
