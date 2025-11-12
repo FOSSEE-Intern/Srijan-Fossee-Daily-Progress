@@ -102,6 +102,26 @@ Therefore **DB_NAME = keycloak**
 ```bash
 /usr/local/bin/keycloak-backup.sh
 ```
+You will get output something like:
+```bash
+[nmaurya@localhost bin]$ /usr/local/bin/keycloak-backup.sh
+Backing up Keycloak database...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+Backing up Keycloak configuration...
+tar: Removing leading `/' from member names
+Backup completed: /var/backups/keycloak/2025-11-11_16-02-11
+```
+
+The error:
+```vbnet
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+```
+It is not fatal but if you don't want it just add **--no-tablespaces**
+```bash
+mysqldump --no-tablespaces -u keycloak_user -p keycloak_db > /backup/keycloak.sql
+```
+
 This will create a folder like:
 ```swift
 `/var/backups/keycloak/2025-11-08_18-00-00/  
