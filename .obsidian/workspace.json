@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Logs"
             }
+          },
+          {
+            "id": "ddbf13b48c34c099",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "f843b81cb4cd6cd5",
+  "active": "ddbf13b48c34c099",
   "lastOpenFiles": [
     "Pasted image 20251112141314.png",
     "Keycloak OldToNew Migration/Part 2 Upgrading Keycloak.md",
