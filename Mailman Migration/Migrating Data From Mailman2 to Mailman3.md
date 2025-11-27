@@ -14,6 +14,10 @@ sudo chown -R mailman:mailman /opt/mailman/mm/import_data
 	- `/opt/mailman/mm/import_data/config.pck` (List configuration)
 	- `/opt/mailman/mm/import_data/mylist.mbox` (Mbox archives)
 
+*Note: Both these files should be of mailman user and group.*
+```bash
+chown -R mailman:mailman <filename>
+```
 ### Step 1: Import List Configuration to Mailman Core
 
 This step uses the `mailman` command to import the list settings and membership data.

@@ -39,14 +39,12 @@
             "id": "e51d961d3f376c99",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Mailman Migration/Mailman 2 Setup.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20251112141314.png"
               },
-              "icon": "lucide-file",
-              "title": "Mailman 2 Setup"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251112141314"
             }
           }
         ],
@@ -198,7 +196,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "e51d961d3f376c99",
+  "active": "447e46b310e1be74",
   "lastOpenFiles": [
     "Mailman Migration/Migrating Data From Mailman2 to Mailman3.md",
     "Mailman Migration/Mailman 2 Setup.md",
@@ -206,7 +204,7 @@
     "Untitled.md",
     "images/Pasted image 20251127190018.png",
     "Keycloak OldToNew Migration/Logs.md",
-    "Pasted image 20251112141314.png",
+    "images/Pasted image 20251112141314.png",
     "images",
     "Setting Up Host-Only Adapter.md",
     "Mailman Migration",
