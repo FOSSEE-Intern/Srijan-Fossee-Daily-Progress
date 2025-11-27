@@ -103,6 +103,15 @@ sudo nmcli connection add \
   ipv4.method manual \
   connection.autoconnect yes
 ```
+For CentOs 7 equivalent code:
+```bash
+sudo nmcli connection add type ethernet \
+  con-name HostOnly \
+  ifname enp0s8 \
+  ip4 192.168.56.91/24 \
+  ipv4.method manual \
+  autoconnect yes
+```
 
 What this means:
 
