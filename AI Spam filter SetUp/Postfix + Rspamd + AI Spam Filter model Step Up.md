@@ -116,7 +116,7 @@ Check the logs again to ensure the "Connection Refused" error is gone:
 sudo tail -n 20 /var/log/maillog
 ```
 
-![[Screenshot 2026-01-29 150304.png]]
+![Alt Text](images/Screenshot%202026-01-29%20150304.png)
 
 ---
 ### Phase 3: The AI Microservice (Python & Hugging Face)
