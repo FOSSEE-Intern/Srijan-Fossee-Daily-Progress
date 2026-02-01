@@ -45,7 +45,7 @@ Start Postfix:
 sudo systemctl enable --now postfix
 ```
 
-![[Screenshot 2026-01-29 150248.png]]
+![Alt Text](../images/Screenshot 2026-01-29 150248.png)
 ---
 ### Phase 2: Install & Configure Rspamd
 
